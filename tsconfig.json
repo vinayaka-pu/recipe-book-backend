@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                  // Modern JS features
+    "module": "commonjs",                // Node.js module system
+    "moduleResolution": "node",          // Resolve node_modules
+    "esModuleInterop": true,             // Allow 'import express from "express"'
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,                      // Enable strict type checking
+    "skipLibCheck": true,                // Skip type checks of node_modules
+    "outDir": "dist",                    // Compiled files output folder
+    "rootDir": "src",                     // Root folder of TS source files
+    "sourceMap": true, // Enable source maps for debugging
+    
+  },
+  "include": ["src", "../src/recipe-book-frontend/RecipeBook.tsx"],                     // Include all TS files in src
+  "exclude": ["node_modules", "dist"]  // Exclude these folders
+   
+}
+
+  
